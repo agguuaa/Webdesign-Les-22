@@ -2,10 +2,12 @@
   display: block;
   margin: 0 auto;
   max-width: 100%;
+  padding: 7px;
 }
 
 @media (min-width: 576px) {
   .img {
     width: 100%;
+    padding: 5px;
   }
 }
