@@ -1,8 +1,59 @@
-.container {
+:root {
+  --branding-color: #ffb4ac;
+  --secondary-color: rgb(255, 235, 211, 0.2);
+}
+
+.row {
   display: block;
   margin: 0 auto;
   padding: 10px;
   max-width: 100%;
+}
+
+.logo {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease;
+  font-size: 14px;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+footer {
+  background-image: linear-gradient(
+    rgba(185, 180, 206, 0.9),
+    rgba(168, 160, 201, 0.9)
+  );
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background-size: cover;
+  padding: 50px 50px;
+  border-radius: 12px;
 }
 
 @media (max-width: 576px) {
