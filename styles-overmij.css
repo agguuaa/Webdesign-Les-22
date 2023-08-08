@@ -64,4 +64,8 @@ footer {
     width: 70%;
     padding: 5px;
   }
+
+  footer {
+    padding: 70px 50px;
+  }
 }
