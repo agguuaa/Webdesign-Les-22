@@ -52,8 +52,10 @@ footer {
   font-size: 18px;
   color: white;
   background-size: cover;
-  padding: 50px 50px;
+  padding: 90px 50px;
   border-radius: 12px;
+  margin: auto;
+  height: 200px;
 }
 
 @media (min-width: 576px) {
